@@ -1,20 +1,14 @@
 {
-  "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/material": "^6.4.1",
-    "@types/axios": "^0.9.36",
-    "@types/firebase": "^2.4.32",
-    "@types/react-router-dom": "^5.3.3",
-    "@types/recharts": "^1.8.29",
-    "axios": "^1.7.9",
-    "firebase": "^11.2.0",
-    "react-router-dom": "^7.1.3",
-    "recharts": "^2.15.1",
-    "web-vitals": "^4.2.4"
+  "name": "diabetes-tracker-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   },
-  "devDependencies": {
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
-    "react-refresh": "^0.16.0"
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "cors": "^2.8.5"
   }
 }
